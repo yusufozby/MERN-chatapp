@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Edu+VIC+WA+NT+Beginner&family=League+Spartan:wght@300&family=Montserrat:ital,wght@1,500;1,600;1,700&family=Poppins:wght@300;500&display=swap');
+
+
+.header {
+   
+     padding: 15px 0;
+   width: 80%;
+   display: flex;
+  
+   margin: auto;
+   align-items: center;
+   
+   justify-content: space-between;
+    
+}
+
+.chat-logo {
+  font-size: 50px;
+  color: 	#6495ED;
+  cursor: pointer;
+}
+.account-buttons a {
+    display: inline-block;
+    margin-left: 5px;
+   text-decoration: none;
+   color: #6495ED;
+   font-size: 14px;
+   letter-spacing: 0.5px;
+   padding: 8px 14px;
+background-color: #fff;
+color: #6495ED;
+border-radius: 20px;
+}
+.header-side-list {
+    display: none;
+    width: min(320px,100%);
+    position: fixed;
+    right:-100%;
+    top:0;
+    height: 100%;
+background-color: #d3d3d3;
+transition: 0.6s ease-out;
+z-index: 2;
+padding: 5px;
+overflow-y: scroll;
+
+}
+.header-side-list::-webkit-scrollbar {
+    width: 0;
+}
+.sidelist-account-links a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+#sidelistSignup {
+    background-color: #6495ED;
+    color: #fff;
+}
+#sidelistSignin {
+    background-color: #fff;
+    color: #6495ED;
+}
+
+#sign-up {
+    color: #fff;
+    border-radius: 20px;
+    background-color: #6495ED;
+    
+}
+.side-list-background {
+
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    transition: 0.6s ease-out;
+    z-index: -1;
+
+}
+.header-list-btn {
+    color: #00008B;
+    font-size: 30px;
+    display: none;
+    text-align: center;
+   transform: translate(-50%,-25%);
+   overflow: hidden;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 0;
+}
+.header-list,.sidelist {
+    list-style: none;
+}
+.header-list li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.header-list li a {
+    font-size: 14px;
+ color: #00008B;
+    text-decoration: none;
+    
+
+letter-spacing: 1px;
+}
+.header li a:hover {
+    text-decoration: underline;
+}
+.close-side-list-btn {
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 4px;
+    
+}
+.sidelist {
+    margin-top: 10px;
+}
+.sidelist li a {
+    display: inline-block;
+    width: 100%;
+
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #00008B;
+    font-weight: 100;
+    
+
+}
+@media screen and (max-width:991px) {
+   
+  
+    .header {
+        width: 95%;
+        
+    }
+
+}
+@media screen and (max-width:768px) {
+    .header-list,.account-buttons {
+        display: none;
+    }
+    .header-list-btn {
+        display: block;
+        cursor: pointer;
+    }
+    .header-side-list,.side-list-background {
+        display: block;
+    }
+    #open-background {
+        z-index: 1;
+       opacity: 1;
+    }
+    #close-background {
+        z-index: -1;
+        opacity: 0;
+    }
+    #open-side-list {
+        right:0;
+        
+        
+    }
+    #close-side-list {
+        right: -100%;
+      
+    }
+
+    
+}

@@ -1,0 +1,112 @@
+.chat-hero-title {
+
+    font-family: 'anton', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size:clamp(1.25rem ,5vw, 2.25rem);
+    letter-spacing: 1px;
+
+    color:#363636;
+}
+.hero-img {
+    background : linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url("https://www.e-psikiyatri.com/images/post-images/2018/07/27/ce72a35351a78d08114b6add2b9422c3.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    position: relative;
+}
+.hero-img-content {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ 
+
+}
+
+
+.hero-img-content h2 {
+    color: #fff;
+    font-style: italic;
+    font-size: 40px;
+}
+.hero-img-content p {
+    font-weight: 200;
+    color: #fff;
+    margin-top: 10px;
+}
+.hero-img-content span {
+    font-size: clamp(1rem , 3vw ,1.5rem);
+    color: #c4c3d0;
+    font-weight: 200;
+    margin-top: 10px;
+    display: inline-block;
+}
+.hero-img-content button {
+    padding: 8px 1rem;
+    border-radius: 3px;
+    border: 0;
+    margin-top: 10px;
+cursor: pointer; 
+}
+.hero-img-content button:hover {
+background-color: #979aaa;
+color: #fff;
+
+}
+
+.chat-hero-paragraph {
+    color: #363636;
+   line-height: 2;
+    font-size: clamp(0.8rem, 0.8vw,1.5rem);
+    margin: 10px 0;
+}
+.chat-hero-link {
+    display: inline-block;
+    background-color: #a0522d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+
+}
+#specialHeroImg {
+    transform: translateY(-8px);
+}
+
+.chat-hero-img-content {
+    height: 400px;
+    width:100%;
+}
+.chat-hero-img-content img {
+    height: 100%;
+}
+.divider {
+    background-color: #5865f2;
+    
+    height: 2px;
+    width: 100%;
+
+}
+#introduceUs {
+    text-align: center;
+    font-weight:200;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width:991px) {
+    .chat-hero-title {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .hero-img-content {
+        width: 70%;
+    }
+    
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Luckiest+Guy&display=swap');
+
+.footer {
+    background-color: #23272a;
+    margin-top: 50px;
+    padding: 10px 20px;
+
+}
+.footer-container {
+    width: 90%;
+    margin: auto;
+}
+.footer-page-list {
+    list-style: none;
+    margin: 15px auto;
+
+}
+
+
+
+
+.footer-page-item {
+    margin-bottom: 10px;
+}
+.footer-page-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+
+}
+.footer-page-item a:hover {
+    text-decoration: underline;
+}
+.footer-list-title {
+    color: #00bfff;
+    font-weight: 100;
+    display: block;
+}
+.footer-title {
+    color: #fff;
+    
+    letter-spacing: 3px;
+   font-size: 1.5rem;
+    font-family: 'Luckiest Guy', cursive;
+    vertical-align: baseline;
+}
+.footer-dropdown-list {
+    list-style: none;
+ 
+    
+    
+}
+.footer-dropdown {
+    position: relative;
+    display: inline-block;
+}
+.footer-dropdown-item {
+    margin: 0;
+}
+.footer-dropdown-item button {
+   width: 100%;
+  
+
+background-color: #fff;
+color: #353535;
+    text-align: center;
+    font-size: 12px;
+    float:left;
+border: 0;
+padding: 2.5px 0;
+cursor: pointer;
+   
+}
+.footer-dropdown-item button:hover {
+    background-color: #778899;
+    color: #fff;
+}
+.language-btn {
+background: none;
+    padding: 2px 5px;
+    color: #fff;
+    border: 0;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+
+
+}
+.footer-dropdown-menu {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top:100%;
+    border: 0;
+}
+.language-icon,.down-icon {
+ transform: translateY(1.5px);
+}
+.footer-icon-container {
+    display: flex;
+    margin-top: 15px;
+}
+.footer-icon-container a {
+    display: inline-block;
+    margin-right:  20px;
+    text-decoration: none;
+    color: #21abcd;
+    font-size: 20px;
+}
+@media screen and (max-width:768px) {
+    .footer-page-list,
+    .footer-list-title
+    ,.footer-title {
+        text-align: center;
+    }
+    .middle {
+        display: flex;
+      align-items: center;
+        flex-direction: column;
+    }
+
+    
+}

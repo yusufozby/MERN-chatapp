@@ -1,0 +1,92 @@
+.service-title,.help-title {
+    text-align: center;
+letter-spacing: 1.5px;
+margin: 20px 0;
+font-weight: 200;
+font-size: clamp(1.5rem, 5vw,3rem);
+}
+.service-sub-title {
+    text-align: center;
+    font-weight: 200;
+    color: 	#787878;
+}
+.service-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px 4px			#C0C0C0;
+    padding: 20px;
+}
+.service-card-title {
+    color: #fe5a1d;
+    text-align: center;
+}
+.service-card-body {
+    text-align: center;
+
+}
+.service-card-body h4,.service-card-body p {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.service-card-body p {
+    font-size: 13px;
+    color: #787878;
+}
+.help-card {
+    background-color: #373737;
+   
+margin: 10px 0;
+    width: 100%;
+
+    color: #fff;
+  
+ 
+}
+.help-card-header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid #fff;
+    padding:5px 10px;
+    cursor: pointer;
+}
+.help-card-question {
+    font-size: 12px;
+    
+
+}
+.help-card-body {
+  
+ 
+    padding: 10px;
+    background-color: #696969;
+  
+}
+.help-card-body p {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 2;
+   
+  
+}
+#flexColumn {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+.help-card-icon {
+transform: translateY(6px);
+  font-size: 40px;
+}
+@media screen and (max-width:991px) {
+    #flexColumn {
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    #flexColumn {
+        width: 100%;
+    }
+    
+}

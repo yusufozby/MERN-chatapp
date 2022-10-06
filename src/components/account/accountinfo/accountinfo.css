@@ -1,0 +1,79 @@
+
+.account-success,.account-error
+{
+    width: 100%;
+    padding: 15px;
+}
+.account-success {
+    
+    background-color: #d4edda;
+    border:1px solid #155724;
+}
+.account-success span {
+    color: #155724;
+}
+.account-success span,.account-error span {
+    font-size: 12px;
+}
+.account-error {
+    background-color: #f8d7da;
+    
+    border: 1px solid #721c24;
+}
+.account-error span {
+    color: #721c24;
+}
+.move-btm {
+    transform: translateY(2px);
+}
+.account-form {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin:60px auto;  
+  }
+  .account-form-top {
+      background-color: #ccc;
+      padding: 20px;
+      border-radius: 5px 5px 0 0;
+      width: 100%;
+  }
+  .account-form-top h2 {
+      font-weight: 200;
+      text-align: center;
+  }
+  .account-form-body {
+      padding: 15px;
+  }
+
+  .account-btn {
+      width: 100%;
+      border: 0;
+      padding: 3px 0;
+      cursor: pointer;
+      border-radius: 3px;
+      background-color: #0039a6;
+      color: #fff;
+      font-weight: 200;
+  font-size: 16px;
+      letter-spacing: 1px;
+      transition: 0.4s;
+  }
+  .account-btn:hover {
+    opacity: 0.9;
+  }
+  .account-btn:active {
+    opacity: 0.8;
+  }
+  @media screen and (max-width:991px) {
+      .account-form {
+          width: 90%;
+      }
+      
+  }
+  @media screen and (max-width:768px) {
+      .account-form {
+          width: 100%;
+      }
+      
+  }
